@@ -33,6 +33,7 @@ jobs:
       - run:
           name: Run Test
           command: |
+            chmod 777 /usr/local/lib/node_modules
             npm install -g tap-xunit
             yarn test | tap-xunit > test-results/ava/results.xml
       - run:
