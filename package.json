@@ -1,6 +1,7 @@
 {
   "name": "strlib",
   "version": "1.0.0",
+  "type": "module",
   "description": "A string reversal library",
   "main": "index.js",
   "scripts": {
