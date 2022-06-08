@@ -5,7 +5,7 @@
   "description": "A string reversal library",
   "main": "index.js",
   "scripts": {
-    "test": "BABEL_ENV=test nyc ava",
+    "test": "BABEL_ENV=test nyc ava --tap",
     "build": "BABEL_ENV=build rollup -c",
     "coverage": "nyc report --reporter=lcov --reporter=text-lcov --reporter=html"
   },
